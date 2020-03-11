@@ -1,7 +1,10 @@
 Start by navigating to https://editor.swagger.io/ and inspect the Swagger Petstore example.
 
 
-Now, inspect the example in [`minitwit_api_spec.yaml`](minitwit_api_spec.yaml), either by copying it into the editor at https://editor.swagger.io/ or by editing it in such an editor that you run locally (access it on http://localhost/ after running the followig):
+Now, inspect the example in [`minitwit_api_spec.yaml`](minitwit_api_spec.yaml). It is the OpenAPI equivalent of the simulator API that we earlier specified with the help of the following files: [`minitwit_sim_api.py`](https://github.com/itu-devops/2020-spring/blob/master/sessions/session_03/API%20Spec/minitwit_sim_api.py), [`minitwit_sim_api_test.py`](https://github.com/itu-devops/2020-spring/blob/master/sessions/session_03/API%20Spec/minitwit_sim_api_test.py), [`minitwit_simulator.py`](https://github.com/itu-devops/2020-spring/blob/master/sessions/session_03/API%20Spec/minitwit_simulator.py), and ([`minitwit_scenario.csv`](https://github.com/itu-devops/2020-spring/blob/master/sessions/session_03/API%20Spec/minitwit_scenario.csv)) 
+
+
+Work with [`minitwit_api_spec.yaml`](minitwit_api_spec.yaml) either by copying it into the editor at https://editor.swagger.io/ or by inspecting it in such an editor that you run locally (access it on http://localhost/ after running the following):
 
 ```bash
 $ docker run -p 80:8080 --rm swaggerapi/swagger-editor
@@ -38,7 +41,7 @@ See the list of all available generators with:
 docker run --rm openapitools/openapi-generator-cli list
 ```
 
-Inspect the code and 
+Inspect the generated code and discuss with your team members how you could make that fit into your application.
 
 ## Credits
 
