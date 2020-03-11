@@ -14,15 +14,15 @@ paths:
   /latest:
     get:
       summary: Get latest accpeted id
+      
+
       responses:
         "200":
           description: returns latest accepted id by api
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/LatestResponse'
+                $ref: '#/components/schemas/LatestResponse'
   /register:
     post:
       summary: Post new user to register
